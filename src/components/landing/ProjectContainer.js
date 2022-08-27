@@ -1,14 +1,16 @@
 import React from "react"
+import "./ProjectContainer.css"
 import ProjectItem from "./ProjectItem"
 
 const projectArray=[
     {
         key:0,
-        name:"Copywriting Content",
+        name:"Copywriting asdaksdnlaksdklas Content",
         leadBy:"Kiara",
-        completion:80,
+        completion:10,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     },
     {
         key:1,
@@ -29,7 +31,7 @@ const projectArray=[
     {
         key:3,
         name:"Copywriting Content",
-        leadBy:"Kiara",
+        leadBy:"Rakshita",
         completion:80,
         start:"3:00 am",
         description:""
@@ -38,8 +40,11 @@ const projectArray=[
 
 export default function ProjectContainer() {
     return(
-        <div>
-            {projectArray.map(item=> <ProjectItem key={item.key} data={item}/>)}
-        </div>
+        <>
+            <h2>Ongoing Projects:</h2>
+            <div className="project-container">
+                {projectArray.map(item=> <ProjectItem key={item.key} data={item}/>)}
+            </div>
+        </>
     )
 }

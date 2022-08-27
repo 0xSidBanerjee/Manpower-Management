@@ -1,0 +1,6 @@
+.project-container {
+     width:50vw;
+     height:300px;
+     overflow-y: auto;
+     background-color: #fff;
+}
