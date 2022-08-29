@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectItem.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
-import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faClock, faBell } from "@fortawesome/free-regular-svg-icons";
 
 export default function ProjectItem({ data }) {
   console.log(data);
@@ -43,7 +43,10 @@ export default function ProjectItem({ data }) {
       </div>
 
       <div className="project-item-footer">
-        <button>Reminder</button>
+        <button>
+          <FontAwesomeIcon icon={faBell} />
+          <span>Reminder</span>
+        </button>
         <a href={data.link} rel="noreferrer" target="_blank">
           Show More
         </a>

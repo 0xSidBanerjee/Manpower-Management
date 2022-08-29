@@ -5,18 +5,18 @@ import ProjectItem from "./ProjectItem"
 const projectArray=[
     {
         key:0,
-        name:"Copywriting asdaksdnlaksdklas Content",
+        name:"Copywriting Content",
         leadBy:"Kiara",
-        completion:10,
+        completion:60,
         start:"3:00 am",
         description:"",
         link:""
     },
     {
         key:1,
-        name:"Copywriting Content",
-        leadBy:"Kiara",
-        completion:80,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
         start:"3:00 am",
         description:""
     },
@@ -24,15 +24,31 @@ const projectArray=[
         key:2,
         name:"Copywriting Content",
         leadBy:"Kiara",
-        completion:80,
+        completion:60,
         start:"3:00 am",
         description:""
     },
     {
         key:3,
-        name:"Copywriting Content",
-        leadBy:"Rakshita",
-        completion:80,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
+        start:"3:00 am",
+        description:""
+    },
+    {
+        key:4,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
+        start:"3:00 am",
+        description:""
+    },
+    {
+        key:5,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
         start:"3:00 am",
         description:""
     }

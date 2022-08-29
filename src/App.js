@@ -4,9 +4,9 @@ import ProjectContainer from "./components/landing/ProjectContainer";
 
 function App() {
   return (
-   <>
+   <div className="app-body">
     <ProjectContainer/>
-   </>
+   </div>
   );
 }
 
