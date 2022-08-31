@@ -55,12 +55,25 @@ const projectArray=[
 ]
 
 export default function ProjectContainer() {
+    const name=projectArray.map(abc)
     return(
         <>
             <h2>Ongoing Projects:</h2>
             <div className="project-container">
-                {projectArray.map(item=> <ProjectItem key={item.key} data={item}/>)}
+                {name}
             </div>
         </>
     )
 }
+
+function abc(obj) {
+    return(<ProjectItem key={obj.key} data={obj}/>)
+}
+
+// callback function
+// arrow function 
+// map filter reduce
+// props
+// key 
+
+// npm install 

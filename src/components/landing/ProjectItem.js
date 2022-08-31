@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { faClock, faBell } from "@fortawesome/free-regular-svg-icons";
 
-export default function ProjectItem({ data }) {
+export default function ProjectItem({data}) {
   console.log(data);
   return (
     <div className="project-item">

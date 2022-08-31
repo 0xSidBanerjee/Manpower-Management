@@ -7,7 +7,6 @@
 }
 
 .project-container::-webkit-scrollbar {
-     /* color: #; */
      background-color: #e3e8ee;
      margin-block: 5px;
      width: 10px;
