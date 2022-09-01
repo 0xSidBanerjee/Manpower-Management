@@ -18,7 +18,8 @@ const projectArray=[
         leadBy:"David",
         completion:40,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     },
     {
         key:2,
@@ -26,7 +27,8 @@ const projectArray=[
         leadBy:"Kiara",
         completion:60,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     },
     {
         key:3,
@@ -34,7 +36,8 @@ const projectArray=[
         leadBy:"David",
         completion:40,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     },
     {
         key:4,
@@ -42,7 +45,8 @@ const projectArray=[
         leadBy:"David",
         completion:40,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     },
     {
         key:5,
@@ -50,7 +54,8 @@ const projectArray=[
         leadBy:"David",
         completion:40,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     }
 ]
 
