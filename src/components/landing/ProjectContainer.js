@@ -1,4 +1,5 @@
 import React from "react"
+import "./ProjectContainer.css"
 import ProjectItem from "./ProjectItem"
 
 const projectArray=[
@@ -6,15 +7,16 @@ const projectArray=[
         key:0,
         name:"Copywriting Content",
         leadBy:"Kiara",
-        completion:80,
+        completion:60,
         start:"3:00 am",
-        description:""
+        description:"",
+        link:""
     },
     {
         key:1,
-        name:"Copywriting Content",
-        leadBy:"Kiara",
-        completion:80,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
         start:"3:00 am",
         description:""
     },
@@ -22,24 +24,56 @@ const projectArray=[
         key:2,
         name:"Copywriting Content",
         leadBy:"Kiara",
-        completion:80,
+        completion:60,
         start:"3:00 am",
         description:""
     },
     {
         key:3,
-        name:"Copywriting Content",
-        leadBy:"Kiara",
-        completion:80,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
+        start:"3:00 am",
+        description:""
+    },
+    {
+        key:4,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
+        start:"3:00 am",
+        description:""
+    },
+    {
+        key:5,
+        name:"App Designing",
+        leadBy:"David",
+        completion:40,
         start:"3:00 am",
         description:""
     }
 ]
 
 export default function ProjectContainer() {
+    const name=projectArray.map(abc)
     return(
-        <div>
-            {projectArray.map(item=> <ProjectItem key={item.key} data={item}/>)}
-        </div>
+        <>
+            <h2>Ongoing Projects:</h2>
+            <div className="project-container">
+                {name}
+            </div>
+        </>
     )
 }
+
+function abc(obj) {
+    return(<ProjectItem key={obj.key} data={obj}/>)
+}
+
+// callback function
+// arrow function 
+// map filter reduce
+// props
+// key 
+
+// npm install 
