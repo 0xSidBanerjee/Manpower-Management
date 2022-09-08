@@ -5,10 +5,10 @@ import ReactCalender from "./Components/calendar/Calendar";
 
 function App() {
   return (
-    <>
+    <div className="app-body">
       <ProjectContainer />
       <ReactCalender />
-    </>
+    </div>
   );
 }
 

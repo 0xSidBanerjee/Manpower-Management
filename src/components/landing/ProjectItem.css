@@ -1,0 +1,125 @@
+.project-item {
+     width:90%;
+     display: flex;
+     margin:1rem;
+     background-color: #FFFDFB;
+     column-gap: 10px;
+     font-size: 12px;
+     border-radius: 15px;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.project-item-header {
+     cursor:pointer;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding:0.7rem;
+     color: #FCFAFA;
+     background: url("../../media/project-item-header-background.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+}
+
+.project-item-header-button {
+     cursor:pointer;
+     border:none;
+     border-radius: 50%;
+     outline:none;
+}
+
+.project-item-header-button-icon {
+     font-size: 2rem;
+     color: #5051F9;
+}
+
+.project-item-header-button-icon:hover {
+     color:#5051f9;
+}
+
+.project-item-header-start {
+     margin:0.3rem;
+     text-align: center;
+}
+
+.project-item-header-start-icon {
+     margin-inline: 4px;
+}
+
+.project-item-body {
+     width:60%;
+     display: flex;
+     flex-direction: column;
+     justify-content:flex-start;
+     margin-top: 5px;
+}
+
+.project-item-completion {
+     width:60%;
+     align-self: flex-end;
+     justify-self:flex-start ;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     text-align: center;
+}
+
+.completion-bar-background {
+     height:10px;
+     margin:10px;
+     border-radius: 5px;
+     background-color: #E3E8EE;
+}
+
+
+.completion-bar {
+     border-radius: 5px;
+     background-color: #5051F9;
+     height: 10px;
+}
+
+.project-item-footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     justify-self: flex-end;
+}
+
+.project-item-footer>button {
+     padding:0.3rem;
+     background-color: #EDECFE;
+     color: #5051fb;
+     display: flex;
+     align-items: center;
+     column-gap: 5px;
+     margin:0.8rem;
+     border:none;
+     border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
