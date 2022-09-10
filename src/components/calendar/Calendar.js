@@ -1,22 +1,23 @@
 import React, { useState } from "react";
-import { render } from "react-dom";
-import Calendar from 'react-calendar';
+//import { render } from "react-dom";
+import Calendar from "react-calendar";
 // import 'react-calendar/dist/Calendar.css';
 import './Calendar.css';
 
 const ReactCalender = () => {
-const [date, setDate] = useState(new Date());
-const onChange = date => {
-  setDate(date);
-};
- 
+  const [date, setDate] = useState(new Date());
+  const onChange = date => {
+    setDate(date);
+  };
+
   return (
-  <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
-    <Calendar onChange={onChange} value={date} />
-  </div>
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+      <Calendar onChange={onChange} value={date} />
+    </div>
   );
 };
-render(<ReactCalender/>, document.querySelector("#root"));
+//render(<ReactCalender/>, document.querySelector("#root"));
+export default ReactCalender;
 
 
 

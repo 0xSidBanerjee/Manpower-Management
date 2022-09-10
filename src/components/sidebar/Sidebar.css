@@ -1,0 +1,52 @@
+
+
+.sidebar{
+    background-color: white;
+    /* padding: 20px; */
+    margin: 20px;
+    width: 12rem;
+    border-radius: 0.8rem;
+    height: 97%;
+}
+.sidebar h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar .sidebar-buttons{
+    
+    
+    display: grid;
+    
+    justify-content: center;
+    padding: 27px;
+}
+
+.sidebar button{
+    
+
+    width: 123px;
+    height: 44px;
+   
+    border: none;
+    border-radius: 0.6rem;
+    
+}
+
+.sidebar .sidebar-search{
+    margin-bottom: 49px;
+}
+
+.sidebar .sidebar-elements{
+    margin-bottom: 23px;
+}
+
+.sidebar .sidebar-logout{
+    margin-top: 43px;
+margin-bottom: -10px;
+}
+.sidebar button:hover{
+    background-color: yellow;
+    font-weight: 700;
+
+}
