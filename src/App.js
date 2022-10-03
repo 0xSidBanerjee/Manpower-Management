@@ -8,10 +8,18 @@ import Sidebar from "./Components/sidebar/Sidebar";
 function App() {
   return (
     <div className="app-body">
-      <ProjectContainer />
-      <ReactCalender />
-      <EventContainer/>
-      <Sidebar/>
+      <div className="sidebar-container">
+        <Sidebar />
+      </div>
+      <div className="body-container">
+        <div className="top-container">
+          <ProjectContainer />
+          <EventContainer />
+        </div>
+        <div className="bottom-container">
+          <ReactCalender />
+        </div>
+      </div>
     </div>
   );
 }
