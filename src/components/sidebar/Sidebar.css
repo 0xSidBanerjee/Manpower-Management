@@ -1,52 +1,58 @@
-
-
 .sidebar{
-    background-color: white;
-    /* padding: 20px; */
-    margin: 20px;
-    width: 12rem;
-    border-radius: 0.8rem;
-    height: 97%;
+    width:15vw;
+    height: 95vh;
+    background-color: rgb(225, 220, 220);
+    padding:0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    border-radius: 10px;
 }
-.sidebar h1{
+
+.sidebar-header{
+    word-wrap: break-word;
+    font-size: 40px;
     text-align: center;
-    margin-top: 20px;
+    margin: 0.3rem;
 }
 
-.sidebar .sidebar-buttons{
-    
-    
-    display: grid;
-    
+.sidebar-buttons-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center  ;
+    justify-content: space-evenly;
+}
+
+.sidebar-buttons {
+    width:80%;
+    border-radius: 10px;
+    border:none;
+    padding:0.4rem;
+    margin-block: 0.3rem;
+    display: flex;
     justify-content: center;
-    padding: 27px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
 }
 
-.sidebar button{
-    
-
-    width: 123px;
-    height: 44px;
-   
-    border: none;
-    border-radius: 0.6rem;
-    
-}
-
-.sidebar .sidebar-search{
-    margin-bottom: 49px;
-}
-
-.sidebar .sidebar-elements{
-    margin-bottom: 23px;
-}
-
-.sidebar .sidebar-logout{
-    margin-top: 43px;
-margin-bottom: -10px;
-}
-.sidebar button:hover{
+.sidebar-buttons:hover {
     background-color: yellow;
-    font-weight: 700;
+}
+.sidebar-search {
+    margin-block: 1rem;
+}
 
+.sidebar-logout{
+    background-color: transparent;
+    border:2px solid transparent;
+    width:60%;
+    padding:0.3rem;
+    position: absolute;
+    bottom:1rem;
+    transition: all 0.3s ease-in-out;
+}
+.sidebar-logout:hover{
+    border-bottom: 2px solid #5051F9;
 }

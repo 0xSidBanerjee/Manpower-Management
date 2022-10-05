@@ -1,0 +1,25 @@
+.landing-body {
+     background-color: yellow;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 0.8rem;
+}
+
+.body-container{
+     width:80vw;
+     background-color: rgb(225, 220, 220);
+     padding: 1rem;
+     border-radius: 0.8rem;
+     display: flex;
+     justify-content: space-between;
+}
+
+.left-container{
+     display: flex;
+     flex-direction: column;
+}
+
+.right-container{
+     display: flex;
+     flex-direction: column;
+}
