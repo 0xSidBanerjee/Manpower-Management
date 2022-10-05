@@ -1,0 +1,51 @@
+.profile-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    /* height:100vh; */
+    
+    }
+  
+  
+  .form--name-container{
+    display:flex;
+    align-items: center;
+  }
+  .form--mail-container{
+    display:flex;
+    align-items: center;
+  }
+  .form--role-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  textarea{
+    margin-left: 10px;
+    border-radius: 12px;
+  }
+  textarea::placeholder{
+    padding: 10px;
+  }
+  avatar{
+    margin: auto;
+  }
+  
+  
+  
+  input{
+    padding:0.5rem;
+    border-radius: 50px;
+    outline:none;
+    border: 1px solid #000;
+    margin-left:20px;
+    margin-right: 20px;
+  }
+  
+  
