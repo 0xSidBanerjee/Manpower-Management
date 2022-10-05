@@ -15,6 +15,7 @@
 }
 
 .left-container{
+     width:45vw;
      display: flex;
      flex-direction: column;
 }

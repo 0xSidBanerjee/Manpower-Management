@@ -10,6 +10,7 @@ export default function Landing() {
         <div className="landing-body">
             <Sidebar />
             <div className="body-container">
+              <div className="top-container"></div>
                 <div className="left-container">
                     <ProjectContainer />
                     <EventContainer />

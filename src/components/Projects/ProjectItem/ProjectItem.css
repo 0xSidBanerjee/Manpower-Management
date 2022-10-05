@@ -1,5 +1,5 @@
 .project-item {
-     width:90%;
+     width:93%;
      display: flex;
      margin:1rem;
      background-color: #FFFDFB;
@@ -37,7 +37,9 @@
 }
 
 .project-item-header-button-icon:hover {
-     color:#5051f9;
+     color:#5071f9;
+     box-shadow: 0 0 2px 1px #5071f9;
+     border-radius: 100%;
 }
 
 .project-item-header-start {
