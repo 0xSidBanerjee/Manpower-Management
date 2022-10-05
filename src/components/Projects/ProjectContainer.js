@@ -1,6 +1,6 @@
 import React from "react"
 import "./ProjectContainer.css"
-import ProjectItem from "./ProjectItem"
+import ProjectItem from "./ProjectItem/ProjectItem"
 
 const projectArray=[
     {
@@ -74,11 +74,3 @@ export default function ProjectContainer() {
 function abc(obj) {
     return(<ProjectItem key={obj.key} data={obj}/>)
 }
-
-// callback function
-// arrow function 
-// map filter reduce
-// props
-// key 
-
-// npm install 

@@ -1,6 +1,6 @@
 import React from "react"
 import "./EventContainer.css"
-import EventItem from "./EventItem"
+import EventItem from "./EventItem/EventItem"
 
 const EventArray=[
     {
