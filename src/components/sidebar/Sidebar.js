@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
-import {SearchSharp, DashboardSharp, RateReviewSharp, BarChartSharp, AccountCircleSharp, SettingsSharp, LogoutSharp} from '@mui/icons-material';
+import {SearchSharp, DashboardSharp, BarChartSharp, AccountCircleSharp, SettingsSharp, LogoutSharp} from '@mui/icons-material';
 
 function Sidebar() {
   return (

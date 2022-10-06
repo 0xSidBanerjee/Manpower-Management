@@ -4,6 +4,7 @@ import ProjectContainer from "./Components/landing/ProjectContainer";
 import ReactCalender from "./Components/calendar/Calendar";
 import EventContainer from "./Components/landing/Eventcontainer";
 import Sidebar from "./Components/sidebar/Sidebar";
+import Header from "./Components/header/Header";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Sidebar />
       </div>
       <div className="body-container">
+      <Header />
         <div className="top-container">
           <ProjectContainer />
           <EventContainer />

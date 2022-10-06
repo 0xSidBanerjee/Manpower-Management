@@ -1,0 +1,58 @@
+.info-1 > h3{
+
+    font-size: 30px;
+}
+.info-1 > h2{
+    color: rgb(96, 96, 255);
+}
+
+
+.lower-header .tasks{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lower-header .tasks .task {
+    width: 250px;
+    height: 150px;
+    background: rgb(255, 255, 0);
+    border-radius: 0.6rem;
+    margin: 20px 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box{
+    border-bottom: 1.5px solid black;
+}
+.lower-header .tasks .create-task {
+    width: 383px;
+    height: 150px;
+    background: rgb(255, 255, 0);
+    border-radius: 0.6rem;
+    margin: 20px 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .lower-header .tasks .create-task span {
+    background: white;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+.lower-header .tasks .task span {
+    background: white;
+    border-radius: 50%;
+    padding: 0.3rem;
+} */
+
+.lower-header .tasks .task:hover{
+    box-shadow: none;
+}
