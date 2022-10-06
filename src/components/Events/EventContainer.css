@@ -1,0 +1,11 @@
+.event-header {
+    margin-block: 0.4rem;
+}
+.event-container {
+    width:100%;
+    background-color: white;
+    display: flex;
+    overflow-x:auto;
+    border-radius: 10px;    
+}
+

@@ -1,0 +1,67 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-user-name > h1 {
+    color: #5051f9;
+    margin-inline: 0.7rem;
+    font-size: 25px;
+}
+
+.header-user-options-icon {
+    height: 25px;
+    margin: 0.2rem 0.5rem;
+}
+
+.header-task {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-task-count > h3 {
+    font-size: 20px;
+    margin-inline: 0.7rem;
+    word-wrap: break-word;
+}
+
+.header-task-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    border-radius: 20px;
+    margin-inline: 0.5rem;
+    background-color: yellow;
+}
+.header-task-item > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-task-item > div > h1 {
+    font-size: 20px;
+    margin-inline: 1rem;
+}
+
+.header-task-item-icon {
+    border-radius: 100%;
+    background-color: white;
+    padding: 0.5rem;
+    color: #5051f9;
+    box-shadow: 0 0 3px 1px rgba(255,255,255,0.75);
+
+}
+
+.header-task-item > h3 {
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
