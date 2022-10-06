@@ -3,7 +3,8 @@
   max-width: 100%;
   background: white;
   border: 1px solid #a0a096;
-  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding:0.5rem;
   line-height: 1.125em;
 }
 .react-calendar--doubleView {
@@ -42,6 +43,7 @@
   margin-bottom: 1em;
 }
 .react-calendar__navigation button {
+  font-size: 18px;
   min-width: 44px;
   background: none;
 }
