@@ -1,0 +1,34 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital@1&display=swap");
+.main-container {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.to-do-container{
+    background: white;
+    width: 250px;
+    /* margin: 49px; */
+    padding: 20px;
+    height: 236px;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.to-do-input{
+    padding: 4px;
+    font-size: 17px;
+}
+h1{
+    font-size: 26px;
+}
+
+button{
+    background: yellow;
+    border: none;
+    font-weight: 600;
+    width: 120px;
+    height: 30px;
+    margin-left: 58px;
+    margin-top: 1px;
+    border-radius: 0.8rem;
+}

@@ -5,6 +5,7 @@ import ProjectContainer from "../../components/Projects/ProjectContainer";
 import EventContainer from "../../components/Events/EventContainer";
 import ReactCalender from "../../components/Calendar/Calendar";
 // import Todo from "../../components/ToDoList/Todo";
+import ToDo from "../../components/ToDo/ToDo";
 import Header from "../../components/Header/Header";
 
 export default function Landing() {
@@ -21,7 +22,7 @@ export default function Landing() {
                 </div>
                 <div className="right-container">
                     <ReactCalender />
-                    {/* <Todo /> */}
+                    <ToDo />
                 </div>
             </div>
         </div>
