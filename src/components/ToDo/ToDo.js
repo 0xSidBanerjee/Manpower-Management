@@ -36,7 +36,7 @@ function ToDo() {
                     UX implementation
                     <br />
                 </div>
-                <button>Add todo</button>
+                <button className=''>Add todo</button>
             </div>
         </div>
     )

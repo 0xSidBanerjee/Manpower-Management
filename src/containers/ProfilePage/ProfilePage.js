@@ -1,19 +1,18 @@
 import React from "react"; 
-import './App.css'
+import './profilePage.css'
 import Avatar from 'react-avatar';
-import 'profilePage.css'
 function ProfilePage () {
 
  
   return(
     <div className="profile-page">
     <div>
-      <img src={require("./assets/image/Mask-group.png")} alt="background-img" style={{width:'100vw',height:'200px'}}></img>
+      <img src={require("../../assets/image/Mask-group.png")} alt="background-img" style={{width:'100vw',height:'200px'}}></img>
 
     </div>
 
     <div style={{position:'absolute', left:'20px'}}>
-      <Avatar round name="Aradhya Kumar"/>
+      <Avatar round name="User"/>
     </div>
 
 

@@ -1,30 +1,37 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import { LandingLogin } from "../../components/LandingLogin/LandingLogin";
+import { LandingRegister } from "../../components/LandingRegister/LandingRegister";
 import "./Landing.css";
-import Sidebar from "../../components/Sidebar/Sidebar";
-import ProjectContainer from "../../components/Projects/ProjectContainer";
-import EventContainer from "../../components/Events/EventContainer";
-import ReactCalender from "../../components/Calendar/Calendar";
-// import Todo from "../../components/ToDoList/Todo";
-import ToDo from "../../components/ToDo/ToDo";
-import Header from "../../components/Header/Header";
+import landingBg from "../../assets/image/landing-bg.png"
 
-export default function Landing() {
-    return (
-        <div className="landing-body">
-            <Sidebar />
-            <div className="body-container">
-                <div className="top-container">
-                    <Header />
-                </div>
-                <div className="left-container">
-                    <ProjectContainer />
-                    <EventContainer />
-                </div>
-                <div className="right-container">
-                    <ReactCalender />
-                    <ToDo />
-                </div>
-            </div>
-        </div>
-    );
-}
+export const Landing = () => {
+     const landingComponent = (
+          <div className="landing-form-buttons">
+               <button>
+                    <Link to="/login">Login</Link>
+               </button>
+               <button>
+                    <Link to="/register">Register</Link>
+               </button>
+          </div>
+     );
+
+     return (
+          <div className="landing-app-container">
+               <div className="landing-container">
+                    <div className="landing-image">
+                         <img src={landingBg} alt="landing background"/>
+                    </div>
+                    <div className="landing-content">
+                         <h1>Welcome to <span>MSC Manpower</span></h1>
+                         <Routes>
+                              <Route path="/" element={landingComponent} />
+                              <Route path="/register" element={<LandingRegister />} />
+                              <Route path="/login" element={<LandingLogin />} />
+                         </Routes>
+                    </div>
+               </div>
+          </div>
+     );
+};

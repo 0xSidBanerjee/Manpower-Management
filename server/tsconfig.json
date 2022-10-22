@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "include": ["./**/*.ts", "index.ts"],
+  "exclude": ["node_modules"]
+}
