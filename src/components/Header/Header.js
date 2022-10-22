@@ -1,13 +1,5 @@
 import React from "react";
 import "./Header.css";
-import {
-    StarSharp,
-    AddSharp,
-    DescriptionSharp,
-    Notifications,
-    AccountCircle,
-    KeyboardArrowDown,
-} from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faBell,

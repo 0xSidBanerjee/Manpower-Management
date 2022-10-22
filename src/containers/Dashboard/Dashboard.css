@@ -1,0 +1,33 @@
+.dashboard-body {
+     background-color: yellow;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 0.8rem;
+}
+
+.body-container{
+     width:80vw;
+     background-color: rgb(225, 220, 220);
+     padding: 1rem;
+     border-radius: 0.8rem;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr ;
+}
+
+.top-container {
+     grid-column: 1/-1;
+     margin-bottom: 0.3rem;
+}
+
+.left-container{
+     width:45vw;
+     display: flex;
+     flex-direction: column;
+}
+
+.right-container{
+     /* width:45vw; */
+     display: flex;
+     flex-direction: column;
+}

@@ -1,33 +1,88 @@
-.landing-body {
-     background-color: yellow;
+.landing-app-container{
+     height:100vh;
      display: flex;
-     justify-content: space-evenly;
-     padding: 0.8rem;
+     align-items: center;
+     justify-content: center;
 }
 
-.body-container{
-     width:80vw;
-     background-color: rgb(225, 220, 220);
-     padding: 1rem;
-     border-radius: 0.8rem;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr ;
+.landing-container {
+     width:60vw;
+     height:60vh;
+     /* border:2px solid black; */
+     border-radius: 20px;
+     display: flex;
+     justify-content: space-between;
+     box-shadow:0 0 20px rgba(0,0,0,0.1);
 }
 
-.top-container {
-     grid-column: 1/-1;
-     margin-bottom: 0.3rem;
+.landing-image {
+     width:45%;
+     height:100%;
+     /* background-color: #fdfa03 */
 }
 
-.left-container{
-     width:45vw;
+.landing-image>img {
+     width:100%;
+     padding:0.3rem;
+     overflow: hidden;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+}
+
+.landing-content {
+     width:50%;
+     text-align: center;
+     padding:0.5rem;
      display: flex;
      flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
 }
 
-.right-container{
-     /* width:45vw; */
+.landing-content>h1>span {
+     display: block;
+     color:#FFC23C;
+}
+
+.landing-content>div,.landing-content>form{
+     margin-block:2rem;
+}
+
+.landing-content>form {
      display: flex;
      flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     row-gap: 0.8rem;
+}
+
+.landing-content>form label {
+     font-size: 20px;
+     margin:0.5rem;
+}
+
+.landing-content>form input {
+     line-height: 1.6rem;
+     padding:0.3rem;
+     border-radius: 5px;
+     border: none;
+     box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.landing-form-buttons {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+}
+.landing-form-buttons>button {
+     padding:0.3rem;
+     width:100%;
+     border-radius: 15px;
+     background-color: #FFC23C;
+     border: none;
+     cursor: pointer;
+     margin:0.3rem;
+     /* display: block; */
 }
