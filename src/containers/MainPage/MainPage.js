@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectContainer from "../../components/Projects/ProjectContainer";
+import DashboardProjectContainer from "../../components/DashboardProjects/DashboardProjectContainer";
 import EventContainer from "../../components/Events/EventContainer";
 import ReactCalender from "../../components/Calendar/Calendar";
 // import Todo from "../../components/ToDoList/Todo";
@@ -14,7 +14,7 @@ export const MainPage = () => {
                     <Header />
                </div>
                <div className="main-left-container">
-                    <ProjectContainer />
+                    <DashboardProjectContainer />
                     <EventContainer />
                </div>
                <div className="main-right-container">
