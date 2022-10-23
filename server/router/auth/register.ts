@@ -7,6 +7,7 @@ import bcrypt from "bcrypt";
 const router = Router();
 
 router.post("/", async (req, res) => {
+  console.log("post server")
   const { name, email, password } = req.body;
   //for any empty fields
   if (!email || !password || !name) {
@@ -19,6 +20,7 @@ router.post("/", async (req, res) => {
     //for duplicate user
     const user = await User.findOne({ email });
     if (user) {
+      // console.log("user exist")
       return res.status(400).json({
         message: "User already exists",
       });

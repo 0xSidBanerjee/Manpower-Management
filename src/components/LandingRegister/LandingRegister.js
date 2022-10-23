@@ -3,14 +3,15 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 export const LandingRegister = () => {
-     const [handleForm, setHandleForm] = useState({
+     const [handleForm, setHandleForm] = useState([{
           name: "",
           email: "",
           password: "",
-     });
+     }]);
 
      const handleRegister = async (e) => {
           e.preventDefault();
+          console.log(handleForm)
           axios.post("http://localhost:8000/auth/register", handleForm)
                .then((res) => {
                     console.log(res);
@@ -32,6 +33,7 @@ export const LandingRegister = () => {
                                    ...prevState,
                                    name: e.target.value,
                               }))
+                              // setHandleForm({...handleForm,name:e.target.value})
                          }
                     />
                </div>

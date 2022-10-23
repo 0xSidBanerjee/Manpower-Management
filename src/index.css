@@ -1,8 +1,15 @@
+:root {
+  --background-color:#06113C;
+  --container-background-color:#DDDDDD;
+  --box-background-color:#EEEEEE;
+  --box-active-color:#FF8C32;
+}
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
   font-family: "DM Sans";
+  color: black;
 }
 
 *::after,*::before {
@@ -16,3 +23,4 @@ a{
 a:visited,a:hover {
   color: initial;
 }
+     /* background-color: rgb(225, 220, 220); */

@@ -1,0 +1,21 @@
+.main-container {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr;
+}
+
+.main-top-container {
+     grid-column: 1/-1;
+     margin-bottom: 0.3rem;
+}
+
+.main-left-container {
+     width: 45vw;
+     display: flex;
+     flex-direction: column;
+}
+
+.main-right-container {
+     display: flex;
+     flex-direction: column;
+}
