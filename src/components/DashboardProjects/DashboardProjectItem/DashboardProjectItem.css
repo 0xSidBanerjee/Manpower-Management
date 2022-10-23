@@ -1,4 +1,4 @@
-.project-item {
+.dashboard-project-item {
      width:93%;
      display: flex;
      margin:1rem;
@@ -10,7 +10,7 @@
 }
 
 
-.project-item-header {
+.dashboard-project-item-header {
      cursor:pointer;
      display: flex;
      justify-content: space-evenly;
@@ -24,34 +24,34 @@
      border-bottom-left-radius: 15px;
 }
 
-.project-item-header-button {
+.dashboard-project-item-header-button {
      cursor:pointer;
      border:none;
      border-radius: 50%;
      outline:none;
 }
 
-.project-item-header-button-icon {
+.dashboard-project-item-header-button-icon {
      font-size: 2rem;
      color: #5051F9;
 }
 
-.project-item-header-button-icon:hover {
+.dashboard-project-item-header-button-icon:hover {
      color:#5071f9;
      box-shadow: 0 0 2px 1px #5071f9;
      border-radius: 100%;
 }
 
-.project-item-header-start {
+.dashboard-project-item-header-start {
      margin:0.3rem;
      text-align: center;
 }
 
-.project-item-header-start-icon {
+.dashboard-project-item-header-start-icon {
      margin-inline: 4px;
 }
 
-.project-item-body {
+.dashboard-project-item-body {
      width:60%;
      display: flex;
      flex-direction: column;
@@ -59,7 +59,7 @@
      margin-top: 5px;
 }
 
-.project-item-completion {
+.dashboard-project-item-completion {
      width:60%;
      align-self: flex-end;
      justify-self:flex-start ;
@@ -84,7 +84,7 @@
      height: 10px;
 }
 
-.project-item-footer {
+.dashboard-project-item-footer {
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -92,7 +92,7 @@
      justify-self: flex-end;
 }
 
-.project-item-footer>button {
+.dashboard-project-item-footer>button {
      padding:0.3rem;
      background-color: #EDECFE;
      color: #5051fb;

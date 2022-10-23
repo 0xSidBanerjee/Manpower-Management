@@ -1,6 +1,7 @@
 import React from "react";
-import "./ProjectContainer.css";
-import ProjectItem from "./ProjectItem/ProjectItem";
+// import "./DashboardProjectContainer.css";
+import "./DahboardProjectContainer.css"
+import DashboardProjectItem from "./DashboardProjectItem/DashboardProjectItem";
 
 const projectArray = [
     {
@@ -62,10 +63,10 @@ const projectArray = [
 export default function ProjectContainer() {
     return (
         <>
-            <h2 className="project-header">Ongoing Projects:</h2>
-            <div className="project-container">
+            <h2 className="dashboard-project-header">Ongoing dashboard-Projects:</h2>
+            <div className="dashboard-project-container">
                 {projectArray.map((item) => (
-                    <ProjectItem key={item.key} data={item} />
+                    <DashboardProjectItem key={item.key} data={item} />
                 ))}
             </div>
         </>

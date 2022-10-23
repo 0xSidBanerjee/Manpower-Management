@@ -1,7 +1,7 @@
-.project-header {
+.dashboard-project-header {
      margin-block:0.4rem;
 }
-.project-container {
+.dashboard-project-container {
      width:100%;
      border-radius: 10px;
      height:250px;
@@ -9,13 +9,13 @@
      background-color: #fff;
 }
 
-.project-container::-webkit-scrollbar {
+.dashboard-project-container::-webkit-scrollbar {
      background-color: #e3e8ee;
      margin-block: 5px;
      width: 10px;
 }
 
-.project-container::-webkit-scrollbar-thumb {
+.dashboard-project-container::-webkit-scrollbar-thumb {
      background-color: #5051F9;
      border-radius: 15px;
 }
