@@ -2,96 +2,95 @@ import React from "react";
 import "./ProjectPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faCircleUser } from "@fortawesome/free-regular-svg-icons";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { ProjectItem } from "../../components/ProjectItem/ProjectItem";
 
 export const ProjectPage = () => {
-  const newProject=[
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-    {
-      key:0,
-      domain:"Design",
-      name:"Create styleguide foundation",
-      details:"Create content for peaceland App",
-      date:"Aug 20,2021",
-      totalMembers:8,
-      activeMembers:0,
-    },
-  ];
+     const newProject = [
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+          {
+               key: 0,
+               domain: "Design",
+               name: "Create styleguide foundation",
+               details: "Create content for peaceland App",
+               date: "Aug 20,2021",
+               totalMembers: 8,
+               activeMembers: 0,
+          },
+     ];
      return (
           <div className="project-container">
-
                <div className="project-header">
                     <div className="project-header-heading">
                          <h1>Projects</h1>
@@ -122,33 +121,40 @@ export const ProjectPage = () => {
                </div>
 
                <div className="project-body">
-
                     <div className="project-body-item">
-                      <h3>New projects</h3>
-                      <div className="project-body-item-list">
-
-                        {newProject.map(item=>(
-                          <ProjectItem key={item.key} data={item}/>
-                          ))}
-                      </div>
+                         <div className="project-body-item-header">
+                              <h3>New projects</h3>
+                              <FontAwesomeIcon icon={faPlus} className="icon" />
+                         </div>
+                         <div className="project-body-item-list">
+                              {newProject.map((item) => (
+                                   <ProjectItem key={item.key} data={item} />
+                              ))}
+                         </div>
                     </div>
 
                     <div className="project-body-item">
-                    <h3>Ongoing projects</h3>
-                      <div className="project-body-item-list">
-                        {newProject.map(item=>(
-                          <ProjectItem key={item.key} data={item}/>
-                        ))}
-                      </div>
+                         <div className="project-body-item-header">
+                              <h3>Ongoing projects</h3>
+                              <FontAwesomeIcon icon={faPlus} className="icon" />
+                         </div>
+                         <div className="project-body-item-list">
+                              {newProject.map((item) => (
+                                   <ProjectItem key={item.key} data={item} />
+                              ))}
+                         </div>
                     </div>
 
                     <div className="project-body-item">
-                    <h3>Completed projects</h3>
-                      <div className="project-body-item-list">
-                        {newProject.map(item=>(
-                          <ProjectItem key={item.key} data={item}/>
-                        ))}
-                      </div>
+                         <div className="project-body-item-header">
+                              <h3>Completed projects</h3>
+                              <FontAwesomeIcon icon={faPlus} className="icon" />
+                         </div>
+                         <div className="project-body-item-list">
+                              {newProject.map((item) => (
+                                   <ProjectItem key={item.key} data={item} />
+                              ))}
+                         </div>
                     </div>
                </div>
           </div>
