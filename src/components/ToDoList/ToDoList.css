@@ -1,0 +1,32 @@
+.to-do-list-container{
+    background-color: var(--container-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.to-do-container{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
+    margin: 8px;
+    padding:0.5rem;
+}
+
+#addBtn{
+    text-align: center;
+   padding: 0.3rem;
+   border-radius: 15px;
+   border: none;
+   margin-block:0.2rem;
+   background-color: yellow;
+   width: 80px;
+}

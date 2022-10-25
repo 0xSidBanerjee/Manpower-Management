@@ -4,6 +4,7 @@ import EventContainer from "../../components/Events/EventContainer";
 import ReactCalender from "../../components/Calendar/Calendar";
 // import Todo from "../../components/ToDoList/Todo";
 // import ToDo from "../../components/ToDo/ToDo";
+import ToDoList from "../../components/ToDoList/ToDoList"
 import Header from "../../components/Header/Header";
 import "./MainPage.css"
 
@@ -19,7 +20,7 @@ export const MainPage = () => {
                </div>
                <div className="main-right-container">
                     <ReactCalender />
-                    {/* <ToDo /> */}
+                    <ToDoList />
                </div>
           </div>
      );
