@@ -1,0 +1,18 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px 10px;
+    height: 20px;
+}
+
+.item-left{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.delete-button{
+    border: 0;
+    background-color: white;
+}
