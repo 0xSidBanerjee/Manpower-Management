@@ -1,16 +1,13 @@
-.to-do-list-container{
-    background-color: var(--container-background-color);
+.todo-list-container{
+    background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 10px;
+    /* justify-content: space-between; */
+    margin:1rem ;
 }
 
-
-.to-do-container{
+.todo-main-section {
     background-color: white;
-    width: 350px;
-    height: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -21,6 +18,10 @@
     padding:0.5rem;
 }
 
+.list-container {
+    background-color: var(--box-background-color);
+}
+
 #addBtn{
     text-align: center;
    padding: 0.3rem;
@@ -29,4 +30,24 @@
    margin-block:0.2rem;
    background-color: yellow;
    width: 80px;
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px 10px;
+    height: 20px;
+}
+
+.item-left{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.delete-button{
+    border: 0;
+    background-color: white;
 }
