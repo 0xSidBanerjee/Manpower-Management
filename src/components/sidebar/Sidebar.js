@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import { auth } from './firebase';
 import {
      SearchSharp,
      DashboardSharp,
@@ -11,6 +12,10 @@ import {
 import { Link } from "react-router-dom";
 
 function Sidebar() {
+     const logout = () => {
+		auth.signOut();
+	}
+    
      return (
                <div className="sidebar-container">
                     <h1 className="sidebar-header">MSC Tasker</h1>
@@ -32,7 +37,7 @@ function Sidebar() {
                               <Link to="/dashboard/projects">Projects</Link>
                          </button>
                     </div>
-                    <button className="sidebar-logout">
+                    <button onClick={logout} className="sidebar-logout">
                          <LogoutSharp />
                          Logout
                     </button>

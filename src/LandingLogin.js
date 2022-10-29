@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { firebase, auth, provider } from './firebase';
 import axios from "axios";
 
 export const LandingLogin = () => {
@@ -7,6 +8,13 @@ export const LandingLogin = () => {
           email: "",
           password: "",
      });
+     
+
+     const gsign = () => {
+          auth.signInWithPopup(provider).catch(alert);
+      }
+
+
      const handleLogin = async (e) => {
           e.preventDefault();
           axios.post("http://localhost:8000/auth/login", handleForm)
@@ -52,6 +60,12 @@ export const LandingLogin = () => {
                     <button>Login</button>
                     <button><Link to="/register">Go to Register</Link></button>
                </div>
+               <div>
+            <center>
+                <button style={{"marginTop" : "200px"}} 
+                onClick={gsign}>Sign In with Google</button>
+            </center>
+        </div>
           </form>
      );
 };
