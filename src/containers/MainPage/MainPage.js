@@ -1,7 +1,7 @@
 import React from "react";
 import DashboardProjectContainer from "../../components/DashboardProjects/DashboardProjectContainer";
 import EventContainer from "../../components/Events/EventContainer";
-import ReactCalender from "../../components/Calendar/Calendar";
+import ReactCalender from "../../components/calendar/Calendar";
 // import Todo from "../../components/ToDoList/Todo";
 // import ToDo from "../../components/ToDo/ToDo";
 import ToDoList from "../../components/ToDoList/ToDoList"
